@@ -3,11 +3,9 @@
 
 
 #include "ofMain.h"
-#define IMAGE_WIDTH 500
-#define IMAGE_HEIGHT 500
-#define CAM_WIDTH 480
-#define CAM_HEIGHT 480
-#define CELLS 5
+#define CAM_WIDTH 240
+#define CAM_HEIGHT 240
+#define CELLS 8
 
 class testApp : public ofBaseApp{
 	
@@ -27,26 +25,31 @@ public:
   
   ofImage drawing;
   ofImage suggestion;
-  ofImage cell;
-  ofImage sobelCell;
   ofVideoGrabber cam;
   
   double angle[CELLS][CELLS];
-  
+  double pixelBufferH[CAM_WIDTH][CAM_HEIGHT];
+  double pixelBufferV[CAM_WIDTH][CAM_HEIGHT];
   void drawLines();
   void setCamAngles();
   void drawCamAngles();
-  double angleOf(ofImage image);
-  double sumImg(ofImage image);
-  ofImage hSobel(ofImage image);
-  ofImage vSobel(ofImage image);
+  void calcResult();
+  double calcAngle(int x1, int x2, int y1, int y2);
+  double avgImgV(int x1, int y1, int x2, int y2);
+  double avgImgH(int x1, int y1, int x2, int y2);
+  void hSobel();
+  void vSobel();
+  void drawH();
+  void drawV();
   int pointConvolution(int a1, int a2, int a3, 
                        int a4, int a5, int a6,
                        int a7, int a8, int a9,
                        int b1, int b2, int b3,
                        int b4, int b5, int b6,
                        int b7, int b8, int b9);
-
+  
+  
+  
 };
 
 #endif	
