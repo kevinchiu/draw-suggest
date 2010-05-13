@@ -1,0 +1,16 @@
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuio.cpp: In member function 'void Tuio::getMessages()':
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuio.cpp:19: error: 'class tuioCursor' has no member named 'update'
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuio.cpp:20: error: new initializer expression list treated as compound expression
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuio.cpp:20: error: no matching function for call to 'tuioCursor::tuioCursor(float)'
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioCursor.h:5: note: candidates are: tuioCursor::tuioCursor()
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioCursor.h:5: note:                 tuioCursor::tuioCursor(const tuioCursor&)
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuio.cpp:28: error: 'class tuioObject' has no member named 'update'
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuio.cpp:29: error: new initializer expression list treated as compound expression
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuio.cpp:29: error: no matching function for call to 'tuioObject::tuioObject(float)'
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioObject.h:5: note: candidates are: tuioObject::tuioObject()
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioObject.h:5: note:                 tuioObject::tuioObject(const tuioObject&)
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuio.cpp:37: error: 'class tuioTag' has no member named 'update'
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuio.cpp:38: error: new initializer expression list treated as compound expression
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuio.cpp:38: error: no matching function for call to 'tuioTag::tuioTag(int32_t)'
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioTag.h:5: note: candidates are: tuioTag::tuioTag()
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioTag.h:5: note:                 tuioTag::tuioTag(const tuioTag&)

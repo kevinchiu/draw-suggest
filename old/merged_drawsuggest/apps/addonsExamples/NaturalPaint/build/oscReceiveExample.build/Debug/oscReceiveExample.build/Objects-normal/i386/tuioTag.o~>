@@ -1,0 +1,10 @@
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioTag.cpp:3: error: definition of implicitly-declared 'tuioTag::tuioTag()'
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioTag.cpp:3: error: declaration of 'tuioTag::tuioTag()' throws different exceptions
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioTag.h:5: error: from previous declaration 'tuioTag::tuioTag() throw ()'
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioTag.cpp:7: error: prototype for 'tuioTag::tuioTag(int, float, float, float, int)' does not match any in class 'tuioTag'
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioTag.h:5: error: candidates are: tuioTag::tuioTag(const tuioTag&)
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioTag.cpp:3: error:                 tuioTag::tuioTag()
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioTag.cpp:15: error: definition of implicitly-declared 'tuioTag::~tuioTag()'
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioTag.cpp:15: error: declaration of 'tuioTag::~tuioTag()' throws different exceptions
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioTag.h:5: error: from previous declaration 'tuioTag::~tuioTag() throw ()'
+/Users/Pol/Projects/OpenFrameworks/apps/addonsExamples/Paint/src/tuioTag.cpp:19: error: no 'void tuioTag::update(float, float, float, int)' member function declared in class 'tuioTag'
